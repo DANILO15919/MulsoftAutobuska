@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "765a03a0-a0a4-45b9-bc86-bfcfc43bcb88",
+		"name": "GetAllAutobuskaStanica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllAutobus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/autobus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"autobus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllGaraza",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/garaza",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"garaza"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllVozac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/vozac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"vozac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllZaposleni",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/zaposleni",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"zaposleni"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllKorisnik",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/korisnik",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"korisnik"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllRuta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/ruta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"ruta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllTipKarte",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/tipKarte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"tipKarte"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllKarta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/karta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"karta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllRutanovi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "grad",
+						"value": "bg",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/api/ruta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"ruta"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

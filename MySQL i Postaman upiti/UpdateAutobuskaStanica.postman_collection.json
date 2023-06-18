@@ -1,0 +1,249 @@
+{
+	"info": {
+		"_postman_id": "4cd62fa0-2e43-4019-9836-84cdd563938c",
+		"name": "UpdateAutobuskaStanica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UpdateAutobus",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"Prevoznik\": \"Turistika agencija\",\r\n        \"TipAutobusa\": \"Turistički\",\r\n        \"BrojSedista\": 30\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/autobus/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"autobus",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateGaraza",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Lokacija\": \"No\",\r\n        \"BrojGaraze\": \"NS3\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/garaza/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"garaza",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVozac",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"JMBG\": \"0403907009876\",\r\n        \"Ime\": \"Ana\",\r\n        \"Prezime\": \"Anić\",\r\n        \"Adresa\": \"Trg  3\",\r\n        \"Grad\": \"Novi Sad\",\r\n        \"Kontakt\": \"0649876543\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/vozac/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"vozac",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateZaposleni",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"JMBG\": \"0213956009876\",\r\n        \"Ime\": \"Jelena\",\r\n        \"Prezime\": \"sd\",\r\n        \"Adresa\": \"Zmaj Jovina 5\",\r\n        \"Grad\": \"Novi Sad\",\r\n        \"BrojSaltera\": \"NS2\",\r\n        \"Kontakt\": \"0641234567\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/zaposleni/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"zaposleni",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateKorisnik",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"JMBG\": \"1101941007890\",\r\n        \"Ime\": \"Stefan\",\r\n        \"Prezime\": \"Stefanović\",\r\n        \"Adresa\": \"Bulevar Oslobođenja 15\",\r\n        \"Grad\": \"Novi Sad\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/korisnik/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"korisnik",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateRuta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"MestoDolaska\": \"Zlatibor\",\r\n        \"MestoOdlaska\": \"Novi Sad\",\r\n        \"BrojPosecenihStanica\": 2\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/ruta/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"ruta",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTipKarte",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"NazivKarte\": \"Povratna\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/tipKarte/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"tipKarte",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateKarta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"BrojPerona\": 2,\r\n        \"BrojSedista\": \"B8\",\r\n        \"DatumPolaska\": \"2023-05-10T00:00:00\",\r\n        \"DatumDolaska\": \"2023-05-12T00:00:00\",\r\n        \"KorisnikID\": 2,\r\n        \"TipKarteID\": 2,\r\n        \"RutaID\": 2,\r\n        \"AutobusID\": 2\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/karta/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"karta",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

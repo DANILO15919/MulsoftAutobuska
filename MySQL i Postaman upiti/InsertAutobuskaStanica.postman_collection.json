@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "1c3a294d-dd5c-44fd-8aab-58023fb70317",
+		"name": "InsertAutobuskaStanica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "InsertAutobus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Prevoznik\": \"d.nnnnnn.o.\",\r\n        \"TipAutobusa\": \"123\",\r\n        \"BrojSedista\": 50\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/autobus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"autobus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertGaraza",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Lokacija\": \"Beograd\",\r\n        \"BrojGaraze\": \"G1\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/garaza",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"garaza"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertVozac",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"JMBG\": \"0101985001234\",\r\n        \"Ime\": \"Marko\",\r\n        \"Prezime\": \"Marković\",\r\n        \"Adresa\": \"Bulevar Kralja Petra 8\",\r\n        \"Grad\": \"Beograd\",\r\n        \"Kontakt\": \"0651234567\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/vozac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"vozac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertZaposleni",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"JMBG\": \"0112965009123\",\r\n        \"Ime\": \"Ivan\",\r\n        \"Prezime\": \"Ivanović\",\r\n        \"Adresa\": \"Knez Mihailova 10\",\r\n        \"Grad\": \"Beograd\",\r\n        \"BrojSaltera\": \"S1\",\r\n        \"Kontakt\": \"0654567890\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/zaposleni",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"zaposleni"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertKorisnik",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"JMBG\": \"1101941007890\",\r\n        \"Ime\": \"Stefan\",\r\n        \"Prezime\": \"Stefanović\",\r\n        \"Adresa\": \"Bulevar Oslobođenja 15\",\r\n        \"Grad\": \"Novi Sad\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/korisnik",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"korisnik"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertRuta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"MestoDolaska\": \"Kopaonik\",\r\n        \"MestoOdlaska\": \"Beograd\",\r\n        \"BrojPosecenihStanica\": 3\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/ruta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"ruta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertTipKarte",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"NazivKarte\": \"Jednosmerna\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/tipKarte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"tipKarte"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"BrojPerona\": \"1\",\r\n        \"BrojSedista\": \"B8\",\r\n        \"DatumPolaska\": \"2023-05-10T00:00:00\",\r\n        \"DatumDolaska\": \"2023-05-12T00:00:00\",\r\n        \"KorisnikID\": 2,\r\n        \"TipKarteID\": 2,\r\n        \"RutaID\": 2,\r\n        \"AutobusID\": 2\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/karta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"karta"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
